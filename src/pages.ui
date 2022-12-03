@@ -40,14 +40,27 @@
    <widget class="QPushButton" name="change_btn_to_second">
     <property name="geometry">
      <rect>
-      <x>610</x>
-      <y>40</y>
+      <x>220</x>
+      <y>30</y>
       <width>76</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
      <string>to second</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="change_btn_to_third">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>30</y>
+      <width>76</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>to third</string>
     </property>
    </widget>
   </widget>
