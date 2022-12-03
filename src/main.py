@@ -24,6 +24,7 @@ class MainWindow(QMainWindow):
         self.change_btn_to_third.clicked.connect(self.go_to_third)
 
         self.show()
+
     def go_to_first(self):
         self.stackedWidget.setCurrentIndex(0)
 
@@ -32,6 +33,7 @@ class MainWindow(QMainWindow):
 
     def go_to_third(self):
         self.stackedWidget.setCurrentIndex(2)
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
